@@ -1,22 +1,23 @@
 def factOrSum(x,o):
     if o == "factorial":
         
-        number= 1
+        number = 1
         
-        for i in range(1,x+1):
+        for i in range(1, x + 1):
             number= number * i
 
         return number
-    
-    else:
-        return
-        
-        sum = 0
 
-        for i in range(0,x):
-            sum = sum + 1
+
+    else:
+
+
+     add = 0 
+     
+     for i in range(0, x + 1):
+            add = add + i   
+
+     return add
         
-        
-        return sum
-        
-        print(factOrSum(4,"factorial"))
+    
+print(factOrSum(4,"factorial"))
